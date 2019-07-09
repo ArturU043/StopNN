@@ -77,6 +77,10 @@ if __name__ == "__main__":
     ## EXERCISE 2: Create your NN model
     model = # Please, inset your code here........
 
+
+    ##push test
+
+
     ##Fit your model
     history = model.fit(XDev, YDev, validation_data=(XVal,YVal,weightVal), sample_weight=weightDev,shuffle=True, **trainParams)
 
